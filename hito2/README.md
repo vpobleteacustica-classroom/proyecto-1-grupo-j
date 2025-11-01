@@ -10,7 +10,7 @@
 
 ```bash
 # Clonar o descargar el repositorio
-cd monitoreoss
+cd hito2
 
 # Crear entorno virtual (recomendado)
 python -m venv .venv
