@@ -25,15 +25,6 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### Dependencias Principales
-
-```
-PyQt6==6.10.0          # Interfaz gráfica
-numpy==2.3.4           # Procesamiento numérico
-scipy==1.16.3          # Filtros digitales
-sounddevice==0.5.3     # Captura de audio
-```
-
 ## Uso
 
 ### Ejecución Básica
@@ -57,4 +48,3 @@ Para el hito 3 esperamos terminar por completo la interface con los siguientes p
 1) Menú de selección de zona donde opera el dispositivo junto al horario
 2) Que realice un guardado completo de la informacion recabada durante cada medicion junto con un menu para destinar el guardado de estos archivos
 3) Realizar un menú para seleccionar el tipo de local en el cual se esta realizando la medición.
-

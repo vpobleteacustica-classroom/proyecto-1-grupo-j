@@ -1,0 +1,117 @@
+{
+  "tipos_locales": [
+    {
+      "nombre": "Discoteca estandar",
+      "superficie_m2": 500,
+      "nivel_ruido_min": 102,
+      "nivel_ruido_max": 105,
+      "limite_d": 60,
+      "clasificacion_base": "C"
+    },
+    {
+      "nombre": "Club social y deportivo",
+      "superficie_m2": 550,
+      "nivel_ruido_min": 100,
+      "nivel_ruido_max": 105,
+      "limite_d": 60,
+      "clasificacion_base": "C"
+    },
+    {
+      "nombre": "Club nocturno",
+      "superficie_m2": 800,
+      "nivel_ruido_min": 102,
+      "nivel_ruido_max": 105,
+      "limite_d": 60,
+      "clasificacion_base": "C"
+    },
+    {
+      "nombre": "Discoteca multizona",
+      "superficie_m2": 750,
+      "nivel_ruido_min": 102,
+      "nivel_ruido_max": 105,
+      "limite_d": 60,
+      "clasificacion_base": "C"
+    },
+    {
+      "nombre": "Club multi-nivel",
+      "superficie_m2": 1000,
+      "nivel_ruido_min": 102,
+      "nivel_ruido_max": 105,
+      "limite_d": 60,
+      "clasificacion_base": "C"
+    },
+    {
+      "nombre": "Espacio multifuncional con terraza",
+      "superficie_m2": 450,
+      "nivel_ruido_min": 85,
+      "nivel_ruido_max": 105,
+      "limite_d": 60,
+      "clasificacion_base": "C"
+    },
+    {
+      "nombre": "Pub con musica en vivo",
+      "superficie_m2": 350,
+      "nivel_ruido_min": 95,
+      "nivel_ruido_max": 100,
+      "limite_d": 55,
+      "clasificacion_base": "B"
+    },
+    {
+      "nombre": "Sala de eventos pequena",
+      "superficie_m2": 500,
+      "nivel_ruido_min": 95,
+      "nivel_ruido_max": 100,
+      "limite_d": 55,
+      "clasificacion_base": "B"
+    },
+    {
+      "nombre": "Sala de espectaculos",
+      "superficie_m2": 500,
+      "nivel_ruido_min": 95,
+      "nivel_ruido_max": 100,
+      "limite_d": 55,
+      "clasificacion_base": "B"
+    },
+    {
+      "nombre": "Bar",
+      "superficie_m2": 300,
+      "nivel_ruido_min": 90,
+      "nivel_ruido_max": 95,
+      "limite_d": 50,
+      "clasificacion_base": "A"
+    },
+    {
+      "nombre": "Bar-restaurant",
+      "superficie_m2": 400,
+      "nivel_ruido_min": 85,
+      "nivel_ruido_max": 90,
+      "limite_d": 50,
+      "clasificacion_base": "A"
+    },
+    {
+      "nombre": "Bar lounge-speakeasy",
+      "superficie_m2": 350,
+      "nivel_ruido_min": 85,
+      "nivel_ruido_max": 90,
+      "limite_d": 50,
+      "clasificacion_base": "A"
+    }
+  ],
+  "clasificaciones": {
+    "A": {
+      "color": "#00FF00",
+      "descripcion": "Tranquilo",
+      "nivel_max": 90
+    },
+    "B": {
+      "color": "#FFD700",
+      "descripcion": "Ruidoso",
+      "nivel_max": 100
+    },
+    "C": {
+      "color": "#FF0000",
+      "descripcion": "Muy ruidoso",
+      "nivel_max": 105
+    }
+  }
+}

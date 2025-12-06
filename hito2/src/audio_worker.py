@@ -1,11 +1,11 @@
-import sys
-import numpy as np
-import sounddevice as sd
-from scipy.signal import sosfilt_zi, sosfilt
-from PyQt6.QtCore import QObject, pyqtSignal, QTimer
 import queue
+import sys
 import threading
 
+import numpy as np
+import sounddevice as sd
+from PyQt6.QtCore import QObject, QTimer, pyqtSignal
+from scipy.signal import sosfilt, sosfilt_zi
 from src.audio_utils import create_dba_filter
 
 
@@ -24,7 +24,7 @@ class AudioWorker(QObject):
     # --- Configuración Optimizada ---
     SAMPLE_RATE = 44100
     BLOCK_SIZE = 4096
-    CALIBRATION_OFFSET_DB = 85.0
+    CALIBRATION_OFFSET_DB = 105.0
     UPDATE_INTERVAL_MS = 100
     QUEUE_MAX_SIZE = 100
     SILENCE_THRESHOLD_DB = -60
