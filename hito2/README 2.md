@@ -38,6 +38,8 @@ Se trabajó en una interface dinámica para el usuario con el fin de que sea mas
 
 Se trabajó con librerias que permiten interpretar audio en valores RMS a dBa para entendimiento del usuario final.
 
+Toda fuente de información fue exclusivamente rescatada según SOCHA (Sociedad Chilena de Acústica) 
+
 1) La interface muestra en decibeles y colores al usuario que es lo que esta sucediendo en el momento.
 
 2) Se implemento un sistema de selección de dispositivo de audio de entrada, un selector de tipo recinto y un log para las mediciones.
