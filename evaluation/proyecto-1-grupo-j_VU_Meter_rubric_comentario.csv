@@ -1,0 +1,9 @@
+criterion,weight_pct,grade_1_7,comments,weighted,comentario_final
+Claridad del planteamiento del problema,10,5.8,"Objetivo descrito, faltó delimitar supuestos y datos clave de entrada.",0.58,
+Justificación y contexto del experimento,10,5.0,Contexto correcto; incorporar 1–2 referencias recientes y definir métricas.,0.5,
+Metodología y organización del notebook,15,5.2,Flujo general claro; se sugiere separar preprocesamiento y modelado.,0.78,
+Calidad del código y buenas prácticas,20,5.0,Código legible; añadir funciones reutilizables y control de versión de datos.,1.0,
+Análisis de resultados y visualizaciones,25,5.1,Gráficos adecuados; explicar mejor discrepancias y añadir barras de error.,1.275,
+Conclusiones y coherencia con objetivos,15,5.4,Conclusiones alineadas; comparar cuantitativamente con una línea base.,0.81,
+"Redacción, ortografía y estilo general",5,5.8,Estilo correcto; revisar algunas tildes y puntuación.,0.29,
+TOTAL (ponderado),100,5.24,,5.24,"Trabajo correcto con un flujo de análisis completo. Se aprecia dedicación y se recomienda fortalecer la justificación teórica, explicitar una métrica principal y comparar contra una línea base. Se puede seguir mejorando; van bien encaminados."
